@@ -1,0 +1,36 @@
+html, body {
+    height : 100%;
+
+
+}
+
+body {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto 0 auto;
+    display: flex;
+}
+
+div{
+    float: left;
+    font-size: 5em;
+    font-family: "Luckiest Guy";
+    margin: 0.5em;
+
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+p{
+    margin: auto;
+    font-family: "Luckiest Guy";
+    font-size: 20em;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
