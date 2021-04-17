@@ -1,5 +1,7 @@
 
 
+
+
 let colorCardList =["blue","red","green","purple","yellow"]
 let colorTxtList =["black","blue","red","green","purple","yellow"]
 let motsList =["noir","bleu","rouge","vert","violet","jaune","marron","rose","salope","merde","putain"]
@@ -7,7 +9,6 @@ let motsList =["noir","bleu","rouge","vert","violet","jaune","marron","rose","sa
 
 let body = document.querySelector("body" )
 let p = document.querySelector("p")
-let div = document.querySelector("div")
 body.addEventListener("click", coloread)
 
 
@@ -21,7 +22,6 @@ body.addEventListener("click", coloread)
         let b = entierAleatoire(0,colorTxtList.length-1)
         let c = entierAleatoire(0,motsList.length-1)
         if(colorCardList[a]!=colorTxtList[b]){
-            div.style.color="black"
             body.style.backgroundColor= colorCardList[a]
             if(motsList[c]==="salope" || motsList[c]==="putain" || motsList[c]==="merde"){
                 p.style.color= "black"
@@ -37,7 +37,6 @@ body.addEventListener("click", coloread)
             let a = entierAleatoire(0,colorCardList.length-1)
             let b = entierAleatoire(0,colorTxtList.length-1)
             let c = entierAleatoire(0,motsList.length-1)
-            div.style.color="white"
             body.style.backgroundColor= "black"
             p.style.color= "white"
             p.textContent = "JOKER"
