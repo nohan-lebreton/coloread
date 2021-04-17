@@ -23,16 +23,9 @@ body.addEventListener("click", coloread)
         let c = entierAleatoire(0,motsList.length-1)
         if(colorCardList[a]!=colorTxtList[b]){
             body.style.backgroundColor= colorCardList[a]
-            if(motsList[c]==="salope" || motsList[c]==="putain" || motsList[c]==="merde"){
-                p.style.color= "black"
-                p.textContent = motsList[c]
+            p.style.color= colorTxtList[b]
+            p.textContent = motsList[c]
             }
-            else{
-                p.style.color= colorTxtList[b]
-                p.textContent = motsList[c]
-            }
-
-        }
         else{
             let a = entierAleatoire(0,colorCardList.length-1)
             let b = entierAleatoire(0,colorTxtList.length-1)

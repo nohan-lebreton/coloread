@@ -14,12 +14,10 @@ body {
 }
 
 img{
-    width: 1em;
+    width: 6em;
     margin: 0.5em;
     position: absolute;
 
-
-    font-size: 70px;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
@@ -31,7 +29,7 @@ p{
     text-align: center;
     margin: auto;
     font-family: "Luckiest Guy",Bungee,calibri;
-   
+
 
 
     font-size: 70px;
