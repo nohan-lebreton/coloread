@@ -30,7 +30,9 @@ p{
     z-index: 1;
     text-align: center;
     margin: auto;
-    font-family: "Luckiest Guy";
+    font-family: "Luckiest Guy",Bungee,calibri;
+   
+
 
     font-size: 70px;
     -webkit-user-select: none;
