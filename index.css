@@ -13,7 +13,7 @@ body {
 
 div{
     float: left;
-    font-size: 5em;
+    font-size: 50PX;
     font-family: "Luckiest Guy";
     margin: 0.5em;
 
@@ -26,7 +26,7 @@ div{
 p{
     margin: auto;
     font-family: "Luckiest Guy";
-    font-size: 20em;
+    font-size: 70px;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
